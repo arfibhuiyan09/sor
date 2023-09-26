@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Binary Search - More Information</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            color: #120d1f; /* Text color */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto; /* Center the container horizontally */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .step {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .step hr {
+            height: 1px; /* Adjust the height of the hr line */
+            background-color: #ddd; /* Change the color if desired */
+            border: none;
+            margin: 10px 0;
+        }
+
+        .step h2 {
+            font-weight: bold;
+            font-size: 24px;
+            color: #000;
+        }
+
+        .step p {
+            font-family: 'Times New Roman', serif;
+            font-size: 18px;
+            color: #010873;
+        }
+
+        /* Add this CSS to style the navigation menu */
+        .nav-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-list li {
+            display: inline;
+        }
+
+        .nav-list li:not(:last-child) a::after {
+            content: " | ";
+            margin-right: 5px;
+            color: #010873; /* Color for the "|" separator */
+            font-weight: normal; /* Optional: Reset font weight if needed */
+        }
+
+        .step nav {
+            background-color: #f5f5f5;
+            padding: 10px;
+        }
+
+        .step nav .nav-list {
+            list-style: none;
+        }
+
+        .step nav .nav-list li {
+            display: inline-block;
+        }
+
+        .step nav .nav-list li a {
+            color: #000;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .step nav .nav-list li a:hover {
+            background-color: #ccc;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="step">
+            <h1>More Information on Binary Search</h1>
+            <nav role="navigation" class="step">
+                <ul class="nav-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="info.html">More Information on Binary Search</a></li>
+              <li><a href="abtme.html">About Me</a></li>
+              <li><a href="demo.html">Try Me!</a></li>
+                </ul>
+              </nav>
+            <hr>
+        </div>
+
+        <div class="step" id="infoStep1">
+            <h2>Introduction to Binary Search</h2>
+            <p>
+                Binary search is a widely used searching algorithm that efficiently locates a specific element in a sorted array or list. It works by repeatedly dividing the search interval in half until the target element is found or the search interval is empty.
+            </p>
+        </div>
+
+        <div class="step" id="infoStep2">
+            <h2>Algorithm Steps</h2>
+            <p>
+                Binary search follows these key steps:
+            </p>
+            <ol>
+                <li>Set low and high pointers at the start and end of the array, respectively.</li>
+                <li>Find the middle element.</li>
+                <li>Compare the middle element with the target.</li>
+                <li>Adjust the low and high pointers based on the comparison result.</li>
+                <li>Repeat steps 2-4 until the target is found or the search interval is empty.</li>
+            </ol>
+        </div>
+
+        <div class="step" id="infoStep3">
+            <h2>Time Complexity</h2>
+            <p>
+                Binary search has a time complexity of O(log n), making it highly efficient for searching large datasets. It is significantly faster than linear search, which has a time complexity of O(n).
+            </p>
+        </div>
+
+        <div class="step" id="infoStep4">
+            <h2>Applications</h2>
+            <p>
+                Binary search is used in various applications, including:
+            </p>
+            <ul>
+                <li>Searching in databases and libraries.</li>
+                <li>Implementing autocomplete and spell checkers.</li>
+                <li>Efficient searching in sorted arrays and lists.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>© yes 2023</p>
+    </footer>
+</body>
+</html>
